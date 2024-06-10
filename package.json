@@ -1,0 +1,18 @@
+{
+  "name": "github-repo-reader",
+  "version": "1.0.0",
+  "description": "Clone a GitHub repository, read files, and save to a txt file",
+  "main": "script.js",
+  "bin": "script.js",
+  "scripts": {
+    "start": "node script.js"
+  },
+  "dependencies": {
+    "simple-git": "^2.44.0"
+  },
+  "pkg": {
+    "targets": [
+      "node14-win-x64"
+    ]
+  }
+}
